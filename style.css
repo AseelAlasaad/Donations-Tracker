@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu&display=swap');
+
+
+body{
+    background-image:url("img/imgexam.jpg");
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20pt;
+    padding: 20pt;
+    font-size: xx-large;
+    
+}
+label{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+
+}
+header{
+
+    background-color: black;
+}
+
+
+th{    color: white;
+
+    background-color:black;
+}
+    
+td{
+    color: white;
+
+    background-color: #3D3D3D;
+}
+table{
+    width: 80%;
+    background-color: rgba(114, 104, 211, 0.8);
+    margin: 20pt;
+
+}
+th,td,tbody,table{
+    border: 2pt solid black;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+form{
+
+    text-align: center;
+   
+}
+fieldset{
+    background-color: rgba(114, 104, 211, 0.8);
+
+    padding: 20pt;
+    margin: 20pt;
+}
+
+input,select{
+    width: 90%;
+    padding: 12px,20px;
+    margin: 5pt;
+    border:2px solid ;
+}
+
+button{
+
+    background-color: black;
+    color: white;
+}
+
+#submit{
+    width: 30%;
+}
